@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweet Sorter</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Tweet sorter</h1>
+      <hr>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span5" id="incoming-tweets">
+
+          <form action="js/tweetSorter.js" method="post" id="fetcher">
+            <input type="search" id="filterer" name="filterer">
+            <input type="submit" id="tweetfetch">
+          </form>
+
+          <div id="tweetbox">
+          </div>
+        </div>
+        <div class="span5" id="favorite-tweets">
+
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/jquery.js"></script>
+    <script src="js/tweetSorter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+/*
+  main custom css for tweetsorter
+*/
+
+body {
+  font-family: futura, sans-serif;
+}
+
+#incoming-tweets {
+  background-color: lightblue;
+}
+
+#favorite-tweets {
+  background-color: lightgreen;
+}
