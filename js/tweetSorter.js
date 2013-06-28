@@ -6,8 +6,8 @@ $(document).ready(function() {
       1000); // poll every 5min
   });
 
-  $('.status').on('click', function(){
-    console.log('hey');
+  $('.status').on('click', '.favorites', function(){
+    moveToFavorites(this);
   });
 
   setInterval(
